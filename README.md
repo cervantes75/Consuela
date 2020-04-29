@@ -1,3 +1,3 @@
 # Consuela
-MobilApp project
+MobilApp project -
 Háztartásvezető/progresskövető app
