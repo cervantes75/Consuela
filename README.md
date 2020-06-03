@@ -1,5 +1,7 @@
 # Consuela
 MobilApp project -
 Háztartásvezető/progresskövető app
-Hollósi Tamás - Cervantes
-Gelencsér Marcell - Aniong
+Hollósi Tamás as
+Cervantes
+Gelencsér Marcell as
+Aniong
