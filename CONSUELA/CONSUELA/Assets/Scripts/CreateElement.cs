@@ -14,5 +14,6 @@ public class CreateElement : MonoBehaviour
     {
         GameObject go = Instantiate(sampleObject, Vector3.zero, Quaternion.identity) as GameObject;
         go.transform.SetParent(ButtonContainer);
+        go.transform.position = transform.position;
     }
 }
