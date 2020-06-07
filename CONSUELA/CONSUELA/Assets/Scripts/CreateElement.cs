@@ -10,28 +10,20 @@ public class CreateElement : MonoBehaviour
     public GameObject sampleObject;
     public Transform ButtonContainer;
     public bool instantiateInWorldSpace = false;
+    List<GameObject> noteList;
 
     void Start()
     {
         Vector3 localScale = sampleObject.transform.localScale;
+        noteList = new List<GameObject>();
 
     }
     public void AddObject()
     {
-        GameObject go = new GameObject();
-
-      
-        if (go != null)
-        {
-            go = Instantiate(sampleObject, Vector3.zero, Quaternion.identity);
-        }
-        else
-        {
-          go = Instantiate(sampleObject, Vector3.zero, Quaternion.identity);
-        }
-
-        go.transform.SetParent(ButtonContainer, false);
-        go.transform.position = transform.position;
+        var Y = (noteList.Count * -800) + 1200;
+        GameObject go = Instantiate(sampleObject, new Vector3(0, Y, 0), Quaternion.identity);
+        go.transform.SetParent(this.transform, false);
+        noteList.Add(go);
 
     }
 }

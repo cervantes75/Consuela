@@ -327,13 +327,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 132836983}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ed7699291af55244a4ac1a13a5842d3, type: 3}
+  m_Script: {fileID: 11500000, guid: 34267c3a15154c249a2536176388a675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sampleObject: {fileID: 2034440168700023370, guid: 6b8967ad4dfae6c41b53d96284521e18,
     type: 3}
   ButtonContainer: {fileID: 1587282815}
-  instantiateInWorldSpace: 1
+  instantiateInWorldSpace: 0
 --- !u!1 &174249694
 GameObject:
   m_ObjectHideFlags: 0
