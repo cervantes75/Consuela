@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using JetBrains.Annotations;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,18 +18,20 @@ public class CreateElement : MonoBehaviour
     }
     public void AddObject()
     {
-        GameObject go = Instantiate(sampleObject, Vector3.zero, Quaternion.identity) as GameObject;
-        go.transform.SetParent(ButtonContainer, false);
-        if (go.scene.IsValid())
+        GameObject go = new GameObject();
+
+      
+        if (go != null)
         {
-            go.transform.position = transform.position + new Vector3(0, 200, 0);
+            go = Instantiate(sampleObject, Vector3.zero, Quaternion.identity);
         }
         else
         {
-            go.transform.position = transform.position;
+          go = Instantiate(sampleObject, Vector3.zero, Quaternion.identity);
         }
-       
-       
-        
+
+        go.transform.SetParent(ButtonContainer, false);
+        go.transform.position = transform.position;
+
     }
 }

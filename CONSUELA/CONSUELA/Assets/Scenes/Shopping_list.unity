@@ -333,7 +333,7 @@ MonoBehaviour:
   sampleObject: {fileID: 2034440168700023370, guid: 6b8967ad4dfae6c41b53d96284521e18,
     type: 3}
   ButtonContainer: {fileID: 1587282815}
-  instantiateInWorldSpace: 0
+  instantiateInWorldSpace: 1
 --- !u!1 &174249694
 GameObject:
   m_ObjectHideFlags: 0
