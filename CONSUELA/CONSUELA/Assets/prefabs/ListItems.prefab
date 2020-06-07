@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 8534895914153042651}
   - component: {fileID: 204369066449362301}
   - component: {fileID: 3353510581412806571}
-  - component: {fileID: 1837276188456802194}
+  - component: {fileID: -6446611074921654150}
   m_Layer: 5
   m_Name: ListItems
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
---- !u!61 &1837276188456802194
+--- !u!61 &-6446611074921654150
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,7 +167,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 460, y: 120}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &3197677798703435180
 GameObject:
